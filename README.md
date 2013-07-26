@@ -6,7 +6,7 @@ Creates an Nginx server_block from commandline.
 I created this project to learn python. 
 
 *Note:*
-If you've downloaded my [myvagrant"](https://github.com/toddmcbrearty/myvagrant) project this is included and will install automatically via vagrant. 
+If you've downloaded my [myvagrant](https://github.com/toddmcbrearty/myvagrant) project this is included and will install automatically via vagrant. 
 
 Installation
 ============
@@ -14,14 +14,13 @@ Installation
 Copy the nxcreate directory to the root of you Linux distrbution.
 To make it easy to run from anywhere run the following command
 cp /nxcreate/nxcreate.py /usr/bin/nxcreate
-
-Now you can simply type nxcreate anywhere to start the program. 
+or you can run the program by typing /nxcreate/nxcreate.py
 
 
 Usage
 =====
 
-Type nxcreate
+Type nxcreate (if you copied nxcreate.py to /usr/bin) or type /nxcreate/nxcreate.py
 You will be asked a series of questions
 
 1. Enter the site URL (what ever the site url is)
